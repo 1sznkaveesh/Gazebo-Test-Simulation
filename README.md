@@ -1,4 +1,4 @@
-# Gazebo-Test-SImulation
+# Gazebo-Test-Simulation
 
 # Mobile Differential Drive Robot-
 >This package provides a simulated mobile differential drive robot, modeled and tested using Gazebo, URDF, and Xacro in the ROS2 framework.​
