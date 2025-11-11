@@ -22,7 +22,7 @@
 
 ### 1. Clone this repository
 ```bash
-cd mobile_dd_robot
+cd ~/ws_ddmobile
 ```
 
 ### 2. Build the package
