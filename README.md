@@ -27,7 +27,7 @@ cd ~/ws_ddmobile
 
 ### 2. Build the package
 ```bash
-colcon build
+colcon build --symlink-install
 ```
 
 ### 3. Source the workspace
@@ -58,6 +58,10 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 ```bash
 ros2 topic echo /cmd_vel
+ros2 topic ech/d455/depth/image_raw/compressedDepth
+ros2 run rqt_image_view rqt_image_view
+
+
 ```
 
 ---
