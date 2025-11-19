@@ -58,8 +58,9 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 ```bash
 ros2 topic echo /cmd_vel
-ros2 topic ech/d455/depth/image_raw/compressedDepth
+ros2 topic echo /d455/depth/image_raw/compressedDepth
 ros2 run rqt_image_view rqt_image_view
+ros2 run rviz2 rviz2
 
 
 ```
